@@ -17,5 +17,9 @@ abstract contract Logger{
     function test3() external pure returns(uint){
         return 100;
     }
+    function test5() internal pure returns(uint){
+        test3();
+        return 10;
+    }
 
 }
