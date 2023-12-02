@@ -13,5 +13,5 @@ interface IFaucet{
 
 
     function addFunds() external payable;
-    function withDraw(uint withdrawAmount) external;
+    function withdraw(uint withdrawAmount) external;
 }
