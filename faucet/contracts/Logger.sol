@@ -18,4 +18,5 @@ abstract contract Logger{
         return 100;
     }
 
+
 }
