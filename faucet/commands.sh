@@ -1,0 +1,1 @@
+npm install --save-dev react-app-rewired crypto-browserify stream-browserify assert stream-http https-browserify os-browserify url buffer process path-browserify
