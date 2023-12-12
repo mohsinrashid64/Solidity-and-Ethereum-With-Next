@@ -13,7 +13,7 @@ contract Faucet is Owned, Logger, IFaucet{
   mapping(uint => address) private lutFunders;
 
   modifier limitWithdraw(uint withdrawAmount){
-    require(withdrawAmount < 100000000000000000, 
+    require(withdrawAmount <= 100000000000000000, 
     "Cannot withdraw more than 0.1 ether"
     );
     _;
